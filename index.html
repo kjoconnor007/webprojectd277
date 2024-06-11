@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florida Demographics</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>Florida Demographics</h1>
+        </div>
+    </header>
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Florida Overview</a></li>
+                <li><a href="stpetersburg.html">St. Petersburg</a></li>
+                <li><a href="tampa.html">Tampa</a></li>
+                <li><a href="miami.html">Miami</a></li>
+                <li><a href="tallahassee.html">Tallahassee</a></li>
+                <li><a href="form.html">Notification Signup</a></li>
+
+            </ul>
+    </nav>
+    <section id="florida-showcase">
+        <div class="container">
+            <img src="images\florida.jpeg" alt="sandy florida beach" class="showcase-img"> 
+    </div>
+    <div class="container">
+        <section id="main">
+            <div class="dropdown">
+                <label for="comparison"><h1>Compare City Data:</h1></label>
+                <select id="comparison" onchange="showCityData()">
+                    <option value="">Select a city</option>
+                    <option value="stpetersburg">St. Petersburg</option>
+                    <option value="tampa">Tampa</option>
+                    <option value="miami">Miami</option>
+                    <option value="tallahassee">Tallahassee</option>
+                </select>
+            </div>
+
+            <div class="city-data" id="stpetersburg">
+                <h2>St. Petersburg</h2>
+                <div>Population: 261,000</div>
+                <div>Year incorporated: 1892</div>
+                <div>Region: West Coast of Florida Peninsula</div>
+                <div>Classification: Urban</div>
+                <div>Median Income: $70,333</div>
+            </div>
+
+            <div class="city-data" id="tampa">
+                <h2>Tampa</h2>
+                <div>Population: 398,160</div>
+                <div>Year incorporated: 1855</div>
+                <div>Region: West Coast of Florida</div>
+                <div>Classification: Urban</div>
+                <div>Median Income: $71,089</div>
+            </div>
+
+            <div class="city-data" id="miami">
+                <h2>Miami</h2>
+                <div>Population: 467,963</div>
+                <div>Year incorporated: 1896</div>
+                <div>Region: Southeastern Florida</div>
+                <div>Classification: Urban</div>
+                <div>Median Income: $44,268</div>
+            </div>
+            <div class="city-data" id="tallahassee">
+                <h2>Tallahassee</h2>
+                <div>Population: 205,536</div>
+                <div>Year incorporated: 1825</div>
+                <div>classification: Urban</div>
+                <div>Region: Florida Panhandle</div>
+                <div>Median Income: $41,818</div>
+            </div>
+        </section>
+            <section class="table-main">
+                <h2>2023 Crime Statistics by City</h2>
+                   <table>
+                       <tr>
+                           <th>City</th>
+                           <th>Total</th>
+                           <th>Violent</th>
+                           <th>Property</th>
+                       </tr>
+                       <tr>
+                           <td>Miami</td>
+                           <td>12,345</td>
+                           <td>2,345</td>
+                           <td>10,000</td>
+                       </tr>
+                       <tr>
+                           <td>Tampa</td>
+                           <td>11,789</td>
+                           <td>2,100</td>
+                           <td>9,689</td>
+                       </tr>
+                       <tr>
+                           <td>St Petersburg</td>
+                           <td>11,234</td>
+                           <td>1,989</td>
+                           <td>9,245</td>
+                       </tr>
+                       <tr>
+                        <td>Tallahassee</td>
+                        <td>5,000</td>
+                        <td>1,200</td>
+                        <td>3,800</td>
+                    </tr>
+                   </table>
+               </section>
+
+        <aside id="sidebar">
+            <h4>Florida Key Data Points</h4> <br>
+            <ul>
+                <li>Population: 22.6 million</li>
+                <li>Median Age: 42.0 years</li>
+                <li>Median Income: $59,227</li>
+                <li>Poverty Rate: 12.7%</li>
+                <li>Education: 32.3% with a bachelor's degree or higher</li>
+            </ul>            
+        </aside>
+    </div>
+    <footer id="main-footer">
+        <div class="container">
+            <p>Learn about Florida State parks on the <a href="https://www.floridastateparks.org/" target="_blank">official website</a>.</p>
+            <p>Copyright &copy; 2024 Kevin O'Connor</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
