@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Florida Demographics</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header id="main-header">
@@ -21,45 +21,47 @@
                 <li><a href="miami.html">Miami</a></li>
                 <li><a href="tallahassee.html">Tallahassee</a></li>
                 <li><a href="form.html">Notification Signup</a></li>
-
             </ul>
+        </div>
     </nav>
-    <section id="florida-showcase">
+
+    <section id="form-showcase">
         <div class="container">
-            <section>
+            <section id="main">
                 <form id="NotificationForm" action="#" method="post">
                     <fieldset>
                         <legend>Enable Notifications</legend>
                     
-                    <label for="firstName">First Name:</label>
-                    <input type="text" id="fName" name="firstName" placeholder="Enter First Name" required>
-                    <br>
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lName" name="lastName" placeholder="Enter Last Name" required>
-                    <br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter Email" required>
-                    <br>
-                    <label for="VerifyEmail">Verify Email:</label>
-                    <input type="email" id="VEmail" name="VerifyEmail" placeholder="Enter Email" required>
-                    <br>
-                    <br>
-                    <p> Accept Notification Terms </p>
-                    <br>
-                    <P> You agree to allow the state of Florida to notify you via email 
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="fName" name="firstName" placeholder="Enter First Name" required>
                         <br>
-                         of updates to data as it pertains to demographics.</P>
-                         <br>
-                    <div class="checks">
-                    <input type ="checkbox" name="terms"id="terms">
-                    <label for="terms">Accept Terms</label>
-                    </div>
-                    <br>
-                    <input type="submit" value="Enable Notifications" id="enablenotifications">
-                </fieldset>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lName" name="lastName" placeholder="Enter Last Name" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                        <br>
+                        <label for="VerifyEmail">Verify Email:</label>
+                        <input type="email" id="VEmail" name="VerifyEmail" placeholder="Enter Email" required>
+                        <br>
+                        <br>
+                        <p>Accept Notification Terms</p>
+                        <br>
+                        <p>You agree to allow the state of Florida to notify you via email 
+                            of updates to data as it pertains to demographics.</p>
+                        <br>
+                        <div class="checks">
+                            <input type="checkbox" name="terms" id="terms">
+                            <label for="terms">Accept Terms</label>
+                        </div>
+                        <br>
+                        <input type="submit" value="Enable Notifications" id="enablenotifications">
+                    </fieldset>
                 </form>
             </section>
-    </div>
+        </div>
+    </section>
+
     <footer id="main-footer">
         <div class="container">
             <p>Learn about Florida State parks on the <a href="https://www.floridastateparks.org/" target="_blank">official website</a>.</p>
